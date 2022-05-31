@@ -2882,10 +2882,11 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
-				border-left: dotted 1px;
+				/* border-left: dotted 1px; */
 				display: inline-block;
-				margin-left: 1em;
+				margin-left: 4em;
 				padding-left: 1em;
+				margin-bottom: 25px;
 			}
 
 				#footer .copyright li:first-child {
@@ -2921,10 +2922,10 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-		#main header.major,
+		/* #main header.major,
 		#main footer.major {
 			background: #ffffff;
-		}
+		} */
 
 /* Wide */
 
@@ -3300,3 +3301,10 @@ input, select, textarea {
 				}
 
 	}
+
+
+.contact-me {
+
+	display: flex;
+	justify-content: center;
+}
