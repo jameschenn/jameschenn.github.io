@@ -2680,11 +2680,18 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+	}
+
+	.socials {
+		display: flex;
+		margin-right: 20px;
+		
 	}
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.65em 0 0;
+			padding: 0 .85em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -3981,3 +3988,40 @@ input, select, textarea {
 			}
 		  }
 		  	
+
+		@media screen and (max-width: 530px) {
+		
+			#intro .icons {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				
+			}
+
+			.socials {
+				display: flex;
+				justify-content: center;
+				margin-left: 15px;
+			}
+
+			#resume-dl {
+				margin-top: 20px;
+			}
+
+
+			#second .row.gtr-uniform {
+				display: flex;
+				flex-direction: column;
+
+			}
+
+			#second .col-4 {
+				height: 100%;
+				width: 100%;
+			}
+
+			#second .col-4 .actions .small {
+				display: flex;
+				justify-content: center;
+			}
+		}
